@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sutha Electronics | LED Lighting & LED Works</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Sutha Electronics - Over 3 Decades of Trusted LED Lighting, COB Strips, Power Drivers, and Wholesale Solutions in Nazareth, Tamil Nadu.">
+    <meta name="keywords" content="LED Lighting, COB Strips, LED Drivers, Sutha Electronics, Nazareth, Electrical Wholesale">
+
+    <!-- Open Graph / WhatsApp Preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sutha Electronics | 30+ Years of Quality LED Lighting">
+    <meta property="og:description" content="Shop commercial LED strips, panel downlights, and heavy-duty drivers with official GST invoices and 12-month warranties.">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#142742',
+                            900: '#0b1a2e',
+                            950: '#060e1a',
+                        },
+                        gold: {
+                            300: '#fce68a',
+                            400: '#fcd34d',
+                            500: '#f5c542',
+                            600: '#d9a21b',
+                        },
+                        skybrand: {
+                            500: '#25a3d3',
+                            600: '#1c88b2',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Segoe UI', 'Roboto', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        };
+    </script>
+
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Canvas Confetti CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <style>
+        body {
+            background-color: #f9fafc;
+            color: #1e1e2a;
+        }
+
+        .header-shadow {
+            box-shadow: 0 4px 20px rgba(11, 26, 46, 0.15);
+        }
+
+        .hero-gradient {
+            background: linear-gradient(145deg, #eef3f9 0%, #dce6f0 100%);
+        }
+
+        .card-sutha {
+            background: #ffffff;
+            border-radius: 24px;
+            border: 1px solid #eef2f8;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .card-sutha:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 35px rgba(11, 26, 46, 0.12);
+            border-color: rgba(245, 197, 66, 0.5);
+        }
+
+        .btn-call-brand {
+            background-color: #25a3d3;
+            color: #ffffff;
+            transition: all 0.2s ease;
+        }
+        .btn-call-brand:hover {
+            background-color: #1c88b2;
+            transform: scale(1.02);
+            box-shadow: 0 6px 16px rgba(37, 163, 211, 0.35);
+        }
+
+        .btn-navy-brand {
+            background-color: #0b1a2e;
+            color: #ffffff;
+            transition: all 0.2s ease;
+        }
+        .btn-navy-brand:hover {
+            background-color: #1a2f4c;
+            transform: scale(1.02);
+            box-shadow: 0 6px 16px rgba(11, 26, 46, 0.25);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 9999px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col font-sans antialiased">
+
+    <!-- Top Announcement Banner -->
+    <div class="bg-navy-900 text-white text-xs sm:text-sm font-medium py-2 px-4 text-center border-b border-slate-800 flex items-center justify-center gap-3">
+        <span class="inline-flex items-center gap-1.5 bg-gold-500 text-navy-950 px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider">
+            <i class="fa-solid fa-award text-xs"></i> 30+ Years Experience
+        </span>
+        <span class="hidden sm:inline">Sutha Electronics: Over 3 Decades of Trusted LED Lighting Excellence. Use code <strong>SUTHA10</strong> for 10% OFF!</span>
+        <span class="sm:hidden">Sutha Electronics: 30+ Years of Trusted Quality!</span>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-40 bg-navy-900 text-white header-shadow transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-11 h-11 rounded-2xl bg-gold-500 text-navy-900 flex items-center justify-center text-2xl shadow-md group-hover:rotate-6 transition-transform">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-xl sm:text-2xl font-bold tracking-tight text-white flex items-center gap-1">
+                            Sutha <span class="text-gold-500 font-light">Electronics</span>
+                        </span>
+                        <span class="text-[10px] tracking-widest text-slate-300 uppercase font-semibold flex items-center gap-1">
+                            <i class="fa-solid fa-shield-halved text-gold-500"></i> 30+ Years Of Trust &amp; Quality
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <nav class="hidden lg:flex items-center space-x-6 font-medium text-sm text-slate-200">
+                    <a href="#shop" class="hover:text-gold-500 transition border-b-2 border-transparent hover:border-gold-500 py-1"><i class="fa-solid fa-list-check mr-1.5 text-xs text-gold-500"></i>Products</a>
+                    <a href="#experience" class="hover:text-gold-500 transition border-b-2 border-transparent hover:border-gold-500 py-1"><i class="fa-solid fa-medal mr-1.5 text-xs text-gold-500"></i>Our Legacy</a>
+                    <a href="#categories" class="hover:text-gold-500 transition border-b-2 border-transparent hover:border-gold-500 py-1"><i class="fa-solid fa-boxes-stacked mr-1.5 text-xs text-gold-500"></i>Categories</a>
+                    <a href="#calculator" class="hover:text-gold-500 transition border-b-2 border-transparent hover:border-gold-500 py-1"><i class="fa-solid fa-calculator mr-1.5 text-xs text-gold-500"></i>Savings Calc</a>
+                    <a href="#bulk" class="hover:text-gold-500 transition border-b-2 border-transparent hover:border-gold-500 py-1"><i class="fa-solid fa-truck-ramp-box mr-1.5 text-xs text-gold-500"></i>Wholesale</a>
+                    <a href="#contact" class="hover:text-gold-500 transition border-b-2 border-transparent hover:border-gold-500 py-1"><i class="fa-solid fa-location-dot mr-1.5 text-xs text-gold-500"></i>Contact</a>
+                </nav>
+
+                <!-- Actions Right -->
+                <div class="flex items-center gap-3">
+                    <!-- Search Bar Toggle -->
+                    <div class="relative">
+                        <button onclick="toggleSearch()" class="p-2.5 rounded-full hover:bg-navy-800 text-slate-200 hover:text-gold-500 transition flex items-center justify-center" aria-label="Search catalog">
+                            <i class="fa-solid fa-magnifying-glass text-lg"></i>
+                        </button>
+                        
+                        <!-- Search Box -->
+                        <div id="searchBox" class="absolute right-0 top-12 w-72 sm:w-80 bg-white rounded-2xl p-2 shadow-2xl border-2 border-gold-500 hidden z-50">
+                            <div class="flex items-center px-3 py-1">
+                                <i class="fa-solid fa-magnifying-glass text-slate-400 mr-2 text-sm"></i>
+                                <input type="text" id="searchInput" onkeyup="handleSearch(this.value)" placeholder="Search LED bulbs, strips, drivers..." class="w-full text-slate-900 text-sm focus:outline-none py-1">
+                                <button onclick="toggleSearch()" class="text-slate-400 hover:text-slate-700 ml-1" aria-label="Close search">
+                                    <i class="fa-solid fa-xmark text-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cart Trigger Button -->
+                    <button onclick="openCartDrawer()" class="relative p-2.5 rounded-full hover:bg-navy-800 text-slate-200 hover:text-gold-500 transition flex items-center justify-center" aria-label="Open Cart">
+                        <i class="fa-solid fa-cart-shopping text-lg"></i>
+                        <span id="cartCountBadge" class="absolute -top-1 -right-1 bg-gold-500 text-navy-950 font-bold text-[11px] w-5 h-5 rounded-full flex items-center justify-center scale-0 transition-transform shadow-md">0</span>
+                    </button>
+
+                    <!-- Direct Call Button -->
+                    <a href="tel:+919842971196" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold-500 hover:bg-gold-600 text-navy-950 font-bold text-xs uppercase tracking-wide transition shadow-md">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Call Store</span>
+                    </a>
+
+                    <!-- Mobile Menu Button -->
+                    <button onclick="toggleMobileNav()" class="lg:hidden p-2 rounded-xl text-slate-200 hover:bg-navy-800" aria-label="Toggle Navigation">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobileNav" class="hidden lg:hidden bg-navy-950 border-t border-slate-800 px-4 py-4 space-y-3">
+            <a href="#shop" onclick="toggleMobileNav()" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-navy-800"><i class="fa-solid fa-list-check text-gold-500 w-6"></i>Shop Products</a>
+            <a href="#experience" onclick="toggleMobileNav()" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-navy-800"><i class="fa-solid fa-medal text-gold-500 w-6"></i>Our 30+ Year Legacy</a>
+            <a href="#categories" onclick="toggleMobileNav()" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-navy-800"><i class="fa-solid fa-boxes-stacked text-gold-500 w-6"></i>Categories</a>
+            <a href="#calculator" onclick="toggleMobileNav()" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-navy-800"><i class="fa-solid fa-calculator text-gold-500 w-6"></i>Energy Savings Calc</a>
+            <a href="#bulk" onclick="toggleMobileNav()" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-navy-800"><i class="fa-solid fa-truck-ramp-box text-gold-500 w-6"></i>Wholesale Inquiry</a>
+            <a href="#contact" onclick="toggleMobileNav()" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-navy-800"><i class="fa-solid fa-location-dot text-gold-500 w-6"></i>Store Location</a>
+            <a href="tel:+919842971196" class="block w-full text-center py-2.5 rounded-xl bg-gold-500 text-navy-950 font-bold text-sm">
+                <i class="fa-solid fa-phone mr-2"></i>Call +91 98429 71196
+            </a>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- Hero Banner Section -->
+        <section class="hero-gradient py-10 border-b border-slate-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-6 bg-white p-6 sm:p-8 rounded-3xl shadow-xl border border-slate-200">
+                    <div class="flex items-center gap-6">
+                        <div class="w-24 h-24 sm:w-32 sm:h-32 rounded-2xl bg-navy-900 text-gold-400 flex items-center justify-center shrink-0 shadow-lg relative">
+                            <i class="fa-solid fa-lightbulb text-5xl sm:text-6xl drop-shadow-[0_0_20px_rgba(245,197,66,0.8)]"></i>
+                            <span class="absolute -bottom-2 bg-gold-500 text-navy-950 text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-tighter">
+                                30+ YRS
+                            </span>
+                        </div>
+                        <div>
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="bg-navy-900 text-gold-500 text-[10px] sm:text-xs font-bold px-3 py-1 rounded-full uppercase">Featured Product</span>
+                                <span class="bg-emerald-100 text-emerald-800 text-[10px] sm:text-xs font-bold px-2.5 py-0.5 rounded-full"><i class="fa-solid fa-check-double mr-1"></i>30+ Years Guaranteed Quality</span>
+                            </div>
+                            <h2 class="text-xl sm:text-2xl font-bold text-navy-900 mt-2">Sutha Pro COB Continuous LED Strip (5M Roll)</h2>
+                            <p class="text-xs sm:text-sm text-slate-600 mt-1">480 LEDs/m • Spotless Uniform Warm Glow • Heavy-Duty 24V COB Tech</p>
+                            <p class="text-lg font-bold text-navy-900 mt-2">₹1,250 <span class="text-xs line-through text-slate-400 font-normal">₹1,800</span> <span class="text-xs text-emerald-600 font-semibold">(Incl. 18% GST)</span></p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3 w-full md:w-auto">
+                        <button onclick="quickAddProduct(1)" class="w-full md:w-auto btn-navy-brand px-6 py-3 rounded-xl font-bold text-xs flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-cart-plus text-gold-500"></i> Add To Cart
+                        </button>
+                        <a href="tel:+919842971196" class="w-full md:w-auto btn-call-brand px-6 py-3 rounded-xl font-bold text-xs flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-phone"></i> Direct Call
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Legacy & Trust Section -->
+        <section id="experience" class="py-10 bg-navy-900 text-white border-b border-navy-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-8">
+                    <span class="bg-gold-500/20 text-gold-400 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        <i class="fa-solid fa-star text-gold-400 mr-1"></i> Three Decades Of Excellence
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-white mt-2">30+ Years of Trusted Service</h2>
+                    <p class="text-slate-300 text-xs sm:text-sm mt-1">Serving Nazareth, Tuticorin, and electrical contractors across South India with uncompromised quality and technical expertise since 1994.</p>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+                    <div class="p-5 rounded-2xl bg-navy-950 border border-slate-800 text-center">
+                        <div class="text-3xl sm:text-4xl font-black text-gold-400 mb-1">30+</div>
+                        <div class="text-xs font-bold text-white">Years Experience</div>
+                        <p class="text-[10px] text-slate-400 mt-1">Established retail & wholesale legacy</p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-navy-950 border border-slate-800 text-center">
+                        <div class="text-3xl sm:text-4xl font-black text-gold-400 mb-1">50k+</div>
+                        <div class="text-xs font-bold text-white">Satisfied Clients</div>
+                        <p class="text-[10px] text-slate-400 mt-1">Homes, shops & industrial sites lit</p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-navy-950 border border-slate-800 text-center">
+                        <div class="text-3xl sm:text-4xl font-black text-gold-400 mb-1">100%</div>
+                        <div class="text-xs font-bold text-white">Genuine LED Components</div>
+                        <p class="text-[10px] text-slate-400 mt-1">Official GST billing & HSN standards</p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-navy-950 border border-slate-800 text-center">
+                        <div class="text-3xl sm:text-4xl font-black text-gold-400 mb-1">12 Mos</div>
+                        <div class="text-xs font-bold text-white">Warranty Coverage</div>
+                        <p class="text-[10px] text-slate-400 mt-1">Direct store counter replacement</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories" class="py-12 bg-white border-b border-slate-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-8">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-gold-600">Explore Departments</span>
+                        <h2 class="text-2xl sm:text-3xl font-bold text-navy-900">Featured Categories</h2>
+                    </div>
+                    <p class="text-xs text-slate-500 mt-1 md:mt-0">Click any category to instantly filter items below</p>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+                    <button onclick="filterCategory('strips', this)" class="p-4 rounded-2xl bg-slate-50 hover:bg-gold-500/10 border border-slate-200 hover:border-gold-500 text-center transition group">
+                        <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center text-xl mx-auto mb-2 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-ribbon"></i>
+                        </div>
+                        <h3 class="font-bold text-xs text-navy-900">LED Strips</h3>
+                        <span class="text-[10px] text-slate-500">12 Products</span>
+                    </button>
+
+                    <button onclick="filterCategory('panels', this)" class="p-4 rounded-2xl bg-slate-50 hover:bg-gold-500/10 border border-slate-200 hover:border-gold-500 text-center transition group">
+                        <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center text-xl mx-auto mb-2 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-circle-notch"></i>
+                        </div>
+                        <h3 class="font-bold text-xs text-navy-900">Panel &amp; Downlights</h3>
+                        <span class="text-[10px] text-slate-500">16 Products</span>
+                    </button>
+
+                    <button onclick="filterCategory('bulbs', this)" class="p-4 rounded-2xl bg-slate-50 hover:bg-gold-500/10 border border-slate-200 hover:border-gold-500 text-center transition group">
+                        <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center text-xl mx-auto mb-2 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <h3 class="font-bold text-xs text-navy-900">LED Bulbs &amp; Battens</h3>
+                        <span class="text-[10px] text-slate-500">20 Products</span>
+                    </button>
+
+                    <button onclick="filterCategory('floodlights', this)" class="p-4 rounded-2xl bg-slate-50 hover:bg-gold-500/10 border border-slate-200 hover:border-gold-500 text-center transition group">
+                        <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center text-xl mx-auto mb-2 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-cloud-sun"></i>
+                        </div>
+                        <h3 class="font-bold text-xs text-navy-900">Flood &amp; Solar</h3>
+                        <span class="text-[10px] text-slate-500">10 Products</span>
+                    </button>
+
+                    <button onclick="filterCategory('drivers', this)" class="p-4 rounded-2xl bg-slate-50 hover:bg-gold-500/10 border border-slate-200 hover:border-gold-500 text-center transition group">
+                        <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center text-xl mx-auto mb-2 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3 class="font-bold text-xs text-navy-900">Drivers &amp; Power</h3>
+                        <span class="text-[10px] text-slate-500">14 Products</span>
+                    </button>
+
+                    <button onclick="filterCategory('decorative', this)" class="p-4 rounded-2xl bg-slate-50 hover:bg-gold-500/10 border border-slate-200 hover:border-gold-500 text-center transition group">
+                        <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center text-xl mx-auto mb-2 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-gem"></i>
+                        </div>
+                        <h3 class="font-bold text-xs text-navy-900">Decorative Lights</h3>
+                        <span class="text-[10px] text-slate-500">8 Products</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shop Product Catalog Section -->
+        <section id="shop" class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <!-- Section Header & Filter Pills -->
+                <div class="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4 border-l-4 border-gold-500 pl-4">
+                    <div>
+                        <h2 class="text-2xl sm:text-3xl font-bold text-navy-900">Sutha Electronics Product Catalog</h2>
+                        <p class="text-xs text-slate-500 mt-0.5">Explore our top LED products with high-resolution thumbnail previews &amp; detailed specifications.</p>
+                    </div>
+
+                    <!-- Category Filter Pills -->
+                    <div class="flex flex-wrap items-center gap-2">
+                        <button onclick="filterCategory('all', this)" class="cat-pill active-pill px-4 py-2 rounded-full text-xs font-bold bg-navy-900 text-gold-500 shadow-sm">All Items</button>
+                        <button onclick="filterCategory('strips', this)" class="cat-pill px-4 py-2 rounded-full text-xs font-bold bg-slate-200 text-slate-700 hover:bg-slate-300">Strips</button>
+                        <button onclick="filterCategory('panels', this)" class="cat-pill px-4 py-2 rounded-full text-xs font-bold bg-slate-200 text-slate-700 hover:bg-slate-300">Panels</button>
+                        <button onclick="filterCategory('bulbs', this)" class="cat-pill px-4 py-2 rounded-full text-xs font-bold bg-slate-200 text-slate-700 hover:bg-slate-300">Bulbs</button>
+                        <button onclick="filterCategory('drivers', this)" class="cat-pill px-4 py-2 rounded-full text-xs font-bold bg-slate-200 text-slate-700 hover:bg-slate-300">Drivers</button>
+
+                        <select id="sortSelect" onchange="sortProducts(this.value)" class="ml-auto px-3 py-2 rounded-xl bg-slate-200 text-xs font-bold text-navy-900 focus:outline-none focus:ring-2 focus:ring-gold-500">
+                            <option value="default">Sort: Featured</option>
+                            <option value="low">Price: Low to High</option>
+                            <option value="high">Price: High to Low</option>
+                            <option value="rating">Rating</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Products Grid Container -->
+                <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Dynamic product cards populated by JavaScript -->
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Energy Savings Calculator Section -->
+        <section id="calculator" class="py-16 bg-navy-900 text-white relative overflow-hidden">
+            <div class="absolute -right-20 -top-20 w-80 h-80 bg-gold-500/10 rounded-full filter blur-3xl pointer-events-none"></div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="text-center max-w-2xl mx-auto mb-10">
+                    <span class="bg-gold-500/20 text-gold-400 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Interactive Tool</span>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-white mt-3">LED Electricity Savings Calculator</h2>
+                    <p class="text-slate-300 text-xs sm:text-sm mt-1">Estimate how much money you save on electricity bills by upgrading from old halogen/incandescent lamps to Sutha Commercial LEDs.</p>
+                </div>
+
+                <div class="bg-navy-950 rounded-3xl p-6 sm:p-10 border border-slate-800 shadow-2xl grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <!-- Calculator Inputs -->
+                    <div class="lg:col-span-7 space-y-6">
+                        <!-- Number of Fixtures -->
+                        <div>
+                            <div class="flex justify-between items-center text-xs font-bold mb-2">
+                                <label for="calcCount" class="text-slate-300">Number of Light Fixtures</label>
+                                <span id="calcCountVal" class="text-gold-400">20 Lights</span>
+                            </div>
+                            <input type="range" id="calcCount" min="1" max="100" value="20" oninput="calculateSavings()" class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-500">
+                        </div>
+
+                        <!-- Hours Per Day -->
+                        <div>
+                            <div class="flex justify-between items-center text-xs font-bold mb-2">
+                                <label for="calcHours" class="text-slate-300">Daily Operating Hours</label>
+                                <span id="calcHoursVal" class="text-gold-400">10 Hours/Day</span>
+                            </div>
+                            <input type="range" id="calcHours" min="1" max="24" value="10" oninput="calculateSavings()" class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-500">
+                        </div>
+
+                        <!-- Existing Wattage -->
+                        <div>
+                            <label for="calcOldWatt" class="block text-xs font-bold text-slate-300 mb-2">Existing Lamp Wattage (per fixture)</label>
+                            <select id="calcOldWatt" onchange="calculateSavings()" class="w-full px-4 py-2.5 rounded-xl bg-navy-900 border border-slate-700 text-white text-xs focus:outline-none focus:ring-2 focus:ring-gold-500 font-semibold">
+                                <option value="60">60W Standard Incandescent Bulb</option>
+                                <option value="40">40W Standard Fluorescent Tube Light</option>
+                                <option value="100">100W High Wattage Halogen Spot</option>
+                                <option value="150">150W Commercial Halogen Floodlight</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Calculated Results Box -->
+                    <div class="lg:col-span-5 bg-gradient-to-br from-navy-900 to-navy-800 rounded-2xl p-6 border border-gold-500/30 text-center space-y-4">
+                        <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">Estimated Annual Savings</span>
+                        <div id="savingsAmount" class="text-3xl sm:text-4xl font-black text-gold-400 drop-shadow">₹0 / year</div>
+                        
+                        <div class="grid grid-cols-2 gap-3 pt-2 text-left border-t border-slate-700/60">
+                            <div class="p-3 bg-navy-950/60 rounded-xl">
+                                <span class="text-[10px] text-slate-400 uppercase block">CO₂ Reduced</span>
+                                <span id="co2Val" class="text-sm font-bold text-emerald-400">0 kg</span>
+                            </div>
+                            <div class="p-3 bg-navy-950/60 rounded-xl">
+                                <span class="text-[10px] text-slate-400 uppercase block">Wattage Load</span>
+                                <div class="text-xs font-bold text-slate-200">
+                                    <span id="oldPower" class="line-through text-red-400">0W</span> <i class="fa-solid fa-arrow-right text-[10px] text-gold-500 mx-1"></i> <span id="newPower" class="text-emerald-400">0W</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#shop" class="inline-block w-full py-3 bg-gold-500 hover:bg-gold-600 text-navy-950 font-bold text-xs rounded-xl transition shadow-lg">
+                            Upgrade To Sutha LEDs Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- B2B Wholesale Section -->
+        <section id="bulk" class="py-16 bg-white border-t border-slate-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-gold-600">B2B &amp; Commercial Supplies</span>
+                        <h2 class="text-2xl sm:text-3xl font-bold text-navy-900 mt-1">Contractor &amp; Commercial Wholesale Quotes</h2>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
+                            Are you an interior designer, electrical contractor, architect, or shopkeeper? Backed by <strong>over 30 years of hands-on expertise</strong> in electrical hardware and LED works, Sutha Electronics provides tier-1 wholesale pricing, bulk packaging, custom aluminum profile channels, and heavy-duty industrial drivers for projects of any size.
+                        </p>
+                        
+                        <div class="mt-6 space-y-3 text-xs text-navy-900 font-semibold">
+                            <div class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-gold-500 text-sm"></i> 30+ Years Industry Legacy &amp; Contractor Trust</div>
+                            <div class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-gold-500 text-sm"></i> Direct Factory Rates on LED Profile Lights &amp; Strips</div>
+                            <div class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-gold-500 text-sm"></i> Instant Govt. GST Tax Invoicing &amp; Input Tax Credit (ITC)</div>
+                            <div class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-gold-500 text-sm"></i> Doorstep Express Shipping for Commercial Orders</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-50 p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-xl">
+                        <h3 class="font-bold text-navy-900 text-lg mb-4 flex items-center gap-2">
+                            <i class="fa-solid fa-file-signature text-gold-500"></i> Request For Enquiry
+                        </h3>
+                        <form id="bulkQuoteForm" onsubmit="handleQuoteSubmit(event)" class="space-y-4">
+                            <div>
+                                <label for="bName" class="block text-[11px] font-bold uppercase text-slate-600 mb-1">Your Name / Firm Name</label>
+                                <input required type="text" id="bName" placeholder="e.g. Apex Electricals" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-slate-300 text-xs text-navy-900 focus:outline-none focus:ring-2 focus:ring-gold-500">
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label for="bPhone" class="block text-[11px] font-bold uppercase text-slate-600 mb-1">Phone Number</label>
+                                    <input required id="bPhone" type="tel" placeholder="+91 98429 71196" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-slate-300 text-xs text-navy-900 focus:outline-none focus:ring-2 focus:ring-gold-500">
+                                </div>
+                                <div>
+                                    <label for="bType" class="block text-[11px] font-bold uppercase text-slate-600 mb-1">Business Type</label>
+                                    <select id="bType" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-slate-300 text-xs text-navy-900 focus:outline-none focus:ring-2 focus:ring-gold-500">
+                                        <option>Contractor / Electrician</option>
+                                        <option>Architect / Interior Designer</option>
+                                        <option>Retailer / Reseller</option>
+                                        <option>Commercial Building Owner</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label for="bProduct" class="block text-[11px] font-bold uppercase text-slate-600 mb-1">Product Name</label>
+                                    <input required type="text" id="bProduct" placeholder="e.g. COB LED Strip 24V / 12W Panel" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-slate-300 text-xs text-navy-900 focus:outline-none focus:ring-2 focus:ring-gold-500">
+                                </div>
+                                <div>
+                                    <label for="bLocation" class="block text-[11px] font-bold uppercase text-slate-600 mb-1">Location / Site Address</label>
+                                    <input required type="text" id="bLocation" placeholder="e.g. Nazareth, Tuticorin" class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-slate-300 text-xs text-navy-900 focus:outline-none focus:ring-2 focus:ring-gold-500">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="bDetails" class="block text-[11px] font-bold uppercase text-slate-600 mb-1">Inquiry / Required Quantity Details</label>
+                                <textarea id="bDetails" rows="3" placeholder="Specify requirements e.g. 500m COB Strip, 50 Driver units..." class="w-full px-3.5 py-2.5 rounded-xl bg-white border border-slate-300 text-xs text-navy-900 focus:outline-none focus:ring-2 focus:ring-gold-500"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-3.5 btn-navy-brand font-bold text-xs rounded-xl shadow-md flex items-center justify-center gap-2">
+                                <span>Submit Request For Enquiry</span>
+                                <i class="fa-solid fa-paper-plane text-gold-500"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Store Hours Section -->
+        <section id="contact" class="py-16 bg-slate-50 border-t border-slate-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-12">
+                    <span class="text-xs font-bold uppercase tracking-wider text-gold-600">Store Hours &amp; Contact Info</span>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-navy-900 mt-1">Get In Touch With Sutha Electronics</h2>
+                    <p class="text-slate-600 text-xs sm:text-sm mt-1">Visit our showroom in Nazareth or contact our team for expert advice based on 30+ years of LED lighting experience.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    
+                    <!-- Address Card -->
+                    <div class="p-8 rounded-3xl bg-white border border-slate-200 shadow-lg flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-2xl bg-navy-900 text-gold-500 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-store"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-navy-900 text-lg mb-1">Showroom Address</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed font-medium">
+                                No.1 , Market Street , Nazareth ,<br>
+                                Tuticorin Dist , Tamil Nadu , India.
+                            </p>
+                            <span class="inline-block text-[10px] bg-gold-500/20 text-gold-700 font-bold px-2 py-0.5 rounded mt-2">Serving Since 1994</span>
+                        </div>
+                    </div>
+
+                    <!-- Contact Card -->
+                    <div class="p-8 rounded-3xl bg-white border border-slate-200 shadow-lg flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-2xl bg-navy-900 text-gold-500 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-navy-900 text-lg mb-1">Direct Contact</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Phone: <a href="tel:+919842971196" class="text-navy-900 font-bold hover:underline">+91 98429 71196</a><br>
+                                WhatsApp: <a href="https://wa.me/919842971196" target="_blank" rel="noopener" class="text-emerald-600 font-bold hover:underline">+91 98429 71196</a><br>
+                                Email: <a href="mailto:sales@suthaelectronics.com" class="text-navy-900 font-bold hover:underline">sales@suthaelectronics.com</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timing Card -->
+                    <div class="p-8 rounded-3xl bg-white border border-slate-200 shadow-lg flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-2xl bg-navy-900 text-gold-500 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-navy-900 text-lg mb-1">Operating Hours</h3>
+                            <div class="text-xs text-slate-600 space-y-1">
+                                <div>Mon - Sat: 9:30 AM – 1:30 PM, 4:30 PM – 9:30 PM</div>
+                                <div>Sunday: Closed</div>
+                                <div class="text-emerald-600 font-bold pt-1"><i class="fa-solid fa-circle text-[8px] mr-1"></i> Store Open</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Google Maps Banner -->
+                <div class="mt-8 p-6 rounded-3xl bg-white border border-slate-200 text-navy-900 flex flex-col md:flex-row items-center justify-between gap-6 shadow-md hover:shadow-xl transition-shadow">
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 rounded-2xl bg-gold-500/20 border border-gold-500/30 text-navy-900 flex items-center justify-center text-2xl shrink-0">
+                            <i class="fa-solid fa-location-dot text-gold-600"></i>
+                        </div>
+                        <div>
+                            <span class="text-[10px] font-bold text-gold-600 uppercase tracking-wider">Official Showroom • 30+ Years Landmark</span>
+                            <h3 class="font-bold text-lg text-navy-900">Sutha Electronics - Nazareth Store</h3>
+                            <p class="text-xs text-slate-500">No.1 , Market Street , Nazareth , Tuticorin Dist , Tamil Nadu , India.</p>
+                        </div>
+                    </div>
+                    <a href="https://maps.app.goo.gl/dwus4LmWgCUaEk3N6?g_st=aw" target="_blank" rel="noopener" class="btn-navy-brand px-6 py-3 rounded-xl font-bold text-xs flex items-center gap-2 whitespace-nowrap shadow-md">
+                        <i class="fa-solid fa-map-location-dot text-gold-400"></i> Open in Google Maps
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 text-slate-400 py-10 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-slate-800 pb-8 mb-8">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-gold-500 text-navy-950 flex items-center justify-center text-xl font-bold">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <div>
+                        <span class="text-xl font-bold text-white">Sutha <span class="text-gold-500 font-light">Electronics</span></span>
+                        <p class="text-xs text-slate-400">30+ Years of Quality LED Lighting &amp; LED Works</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-3">
+                    <a href="tel:+919842971196" class="btn-call-brand px-4 py-2 rounded-full font-bold text-xs flex items-center gap-1.5">
+                        <i class="fa-solid fa-phone"></i> +91 98429 71196
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-between text-xs gap-4">
+                <p>&copy; 2026 Sutha Electronics. 30+ Years of Trust. GSTIN: 33AAAAA0000A1Z5 (Govt. of India Registered).</p>
+                <div class="flex gap-4 text-slate-400">
+                    <a href="#" onclick="showToast('GST Billing: 18% GST (CGST 9% + SGST 9%) applied under HSN 9405 rules.', 'info'); return false;" class="hover:text-gold-500">GST Invoice Rules</a>
+                    <a href="#" onclick="showToast('Warranty: 12 Months direct store replacement on LED products.', 'info'); return false;" class="hover:text-gold-500">Warranty Policy</a>
+                    <a href="#bulk" class="hover:text-gold-500">Enquiry Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Drawer -->
+    <div id="cartDrawer" class="fixed inset-0 z-50 hidden">
+        <div onclick="closeCartDrawer()" class="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
+        <div class="absolute right-0 top-0 bottom-0 w-full max-w-md bg-white shadow-2xl flex flex-col justify-between z-10">
+            
+            <div class="p-5 bg-navy-900 text-white flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-cart-shopping text-gold-500"></i>
+                    <h3 class="font-bold text-base">Your Cart Items</h3>
+                </div>
+                <button onclick="closeCartDrawer()" class="text-slate-300 hover:text-white" aria-label="Close cart">
+                    <i class="fa-solid fa-xmark text-xl"></i>
+                </button>
+            </div>
+
+            <div id="cartItemsList" class="flex-grow p-5 overflow-y-auto space-y-3">
+                <!-- Javascript populates items here -->
+            </div>
+
+            <div class="p-5 border-t border-slate-200 bg-slate-50 space-y-3">
+                <div class="flex gap-2">
+                    <input type="text" id="promoInput" placeholder="Coupon (e.g. SUTHA10)" class="flex-grow px-3 py-2 text-xs rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-gold-500">
+                    <button onclick="applyPromoCode()" class="px-4 py-2 bg-navy-900 text-white text-xs font-bold rounded-xl hover:bg-navy-800">Apply</button>
+                </div>
+
+                <div class="space-y-1 text-xs text-slate-600 bg-white p-3 rounded-xl border border-slate-200">
+                    <div class="flex justify-between">
+                        <span>Taxable Value (Excl. Tax):</span>
+                        <span id="cartTaxable" class="font-semibold text-slate-800">₹0.00</span>
+                    </div>
+                    <div class="flex justify-between text-slate-500">
+                        <span>CGST (9%):</span>
+                        <span id="cartCGST">₹0.00</span>
+                    </div>
+                    <div class="flex justify-between text-slate-500">
+                        <span>SGST (9%):</span>
+                        <span id="cartSGST">₹0.00</span>
+                    </div>
+                    <div class="flex justify-between text-emerald-600 font-semibold border-t border-slate-100 pt-1">
+                        <span>Store Discount:</span>
+                        <span id="cartDiscount">-₹0.00</span>
+                    </div>
+                    <div class="flex justify-between text-base font-bold text-navy-900 pt-2 border-t border-slate-200">
+                        <span>Total Payable (Incl. GST):</span>
+                        <span id="cartTotal" class="text-gold-600">₹0.00</span>
+                    </div>
+                    <p class="text-[10px] text-slate-400 text-right mt-1">*18% GST as per Govt. of India HSN 9405</p>
+                </div>
+
+                <button onclick="openCheckoutModal()" class="w-full py-3.5 btn-navy-brand font-bold text-xs rounded-xl flex items-center justify-center gap-2">
+                    <span>Proceed To GST Checkout</span>
+                    <i class="fa-solid fa-arrow-right text-gold-500"></i>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Quick View Modal -->
+    <div id="productModal" class="fixed inset-0 z-50 hidden bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div id="productModalContent" class="bg-white rounded-3xl max-w-lg w-full p-6 shadow-2xl relative border border-slate-200">
+            <!-- Rendered dynamically by JS -->
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div id="checkoutModal" class="fixed inset-0 z-50 hidden bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl relative border border-slate-200">
+            <button onclick="closeCheckoutModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-800" aria-label="Close modal">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+
+            <h3 class="font-bold text-xl text-navy-900 mb-1">GST Tax Invoice Checkout</h3>
+            <p class="text-xs text-slate-500 mb-4">Enter customer delivery details for official invoice generation.</p>
+
+            <form onsubmit="placeOrder(event)" class="space-y-3">
+                <div>
+                    <label for="custName" class="block text-[11px] font-bold uppercase text-slate-600 mb-1">Full Customer / Firm Name</label>
+                    <input required id="custName" type="text" placeholder="e.g. S. Murugan / Vertex Lighting" class="w-full px-3.5 py-2 rounded-xl bg-slate-50 border border-slate-300 text-xs">
+                </div>
+                <div>
+                    <label for="custPhone" class="block text-[11px] font-bold uppercase text-slate-600 mb-1">Mobile Number</label>
+                    <input required id="custPhone" type="tel" placeholder="+91 98429 71196" class="w-full px-3.5 py-2 rounded-xl bg-slate-50 border border-slate-300 text-xs">
+                </div>
+                <div>
+                    <label for="custAddress" class="block text-[11px] font-bold uppercase text-slate-600 mb-1">Delivery / Billing Address</label>
+                    <input required id="custAddress" type="text" placeholder="No.1, Market Street, Nazareth, Tamil Nadu" class="w-full px-3.5 py-2 rounded-xl bg-slate-50 border border-slate-300 text-xs">
+                </div>
+                <div>
+                    <label for="custGSTIN" class="block text-[11px] font-bold uppercase text-slate-600 mb-1">GSTIN Number (Optional for B2B Tax Credit)</label>
+                    <input id="custGSTIN" type="text" placeholder="e.g. 33ABCDE1234F1Z5" class="w-full px-3.5 py-2 rounded-xl bg-slate-50 border border-slate-300 text-xs uppercase">
+                </div>
+
+                <div class="pt-2">
+                    <span class="block text-[11px] font-bold uppercase text-slate-600 mb-1">Payment Method</span>
+                    <div class="grid grid-cols-2 gap-2 text-xs">
+                        <label class="p-2.5 rounded-xl border border-slate-300 flex items-center gap-2 font-medium cursor-pointer hover:border-gold-500">
+                            <input type="radio" name="pay" checked class="accent-gold-500"> UPI / Net Banking
+                        </label>
+                        <label class="p-2.5 rounded-xl border border-slate-300 flex items-center gap-2 font-medium cursor-pointer hover:border-gold-500">
+                            <input type="radio" name="pay" class="accent-gold-500"> Store Counter Pickup
+                        </label>
+                    </div>
+                </div>
+
+                <div class="pt-3">
+                    <button type="submit" class="w-full py-3 bg-gold-500 hover:bg-gold-600 text-navy-950 font-bold text-xs rounded-xl shadow-md transition">
+                        Confirm Order &amp; Generate GST Invoice (<span id="checkoutAmount">₹0</span>)
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Printable GST Invoice Modal -->
+    <div id="invoiceModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+        <div id="invoiceContent" class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl relative border border-slate-300 text-slate-800 text-xs space-y-4 my-8">
+            <!-- Populated dynamically by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="fixed bottom-5 right-5 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+    <script>
+        const products = [
+            {
+                id: 1,
+                name: "Sutha Pro COB Continuous LED Strip (5M)",
+                category: "strips",
+                price: 1250,
+                oldPrice: 1800,
+                rating: 4.9,
+                badge: "Best Seller",
+                icon: "fa-ribbon",
+                specs: "480 LEDs/m • 24V COB • Spotless Glow • 3000K Warm White",
+                desc: "High density continuous LED strip light without dotted diode hotspots. Perfect for drywall linear channels and kitchen cabinets."
+            },
+            {
+                id: 2,
+                name: "Ultra-Slim Recessed LED Panel Light 12W",
+                category: "panels",
+                price: 320,
+                oldPrice: 480,
+                rating: 4.8,
+                badge: "Top Rated",
+                icon: "fa-circle-notch",
+                specs: "1200 Lumens • 3-in-1 CCT Switchable (Warm/Natural/Cool)",
+                desc: "Frameless sleek panel light with integrated driver. Energy efficient replacement for traditional ceiling downlights."
+            },
+            {
+                id: 3,
+                name: "Heavy-Duty Outdoor LED Floodlight 50W",
+                category: "floodlights",
+                price: 1450,
+                oldPrice: 2100,
+                rating: 4.9,
+                badge: "IP66 Waterproof",
+                icon: "fa-cloud-sun",
+                specs: "5000 Lumens • Surge Protection 4KV • Die-cast Aluminum",
+                desc: "High-intensity outdoor architectural floodlight engineered to withstand rain and dust for garden walls and billboards."
+            },
+            {
+                id: 4,
+                name: "High-Bay Industrial LED Batten Tube 20W",
+                category: "bulbs",
+                price: 240,
+                oldPrice: 350,
+                rating: 4.7,
+                badge: "Energy Saver",
+                icon: "fa-lightbulb",
+                specs: "2000 Lumens • High Power Factor > 0.95 • 6500K Cool Daylight",
+                desc: "Glare-free polycarbonate batten fitting providing uniform illumination for living rooms, shops, and offices."
+            },
+            {
+                id: 5,
+                name: "Sutha Waterproof 12V LED Driver / Power Supply 5A",
+                category: "drivers",
+                price: 580,
+                oldPrice: 850,
+                rating: 4.8,
+                badge: "Heavy Duty",
+                icon: "fa-microchip",
+                specs: "60W • IP67 Metal Casing • Short Circuit & Thermal Protection",
+                desc: "Commercial grade constant-voltage power supply unit designed for running LED strips reliably without flickering."
+            },
+            {
+                id: 6,
+                name: "Architectural Deep Recessed COB Spotlight 7W",
+                category: "panels",
+                price: 420,
+                oldPrice: 600,
+                rating: 4.9,
+                badge: "Anti-Glare",
+                icon: "fa-bullseye",
+                specs: "36° Spot Beam • Dark Reflector • High CRI 90+",
+                desc: "Museum-grade accent reflector light for highlighting wall paintings and architectural features."
+            },
+            {
+                id: 7,
+                name: "Smart RGB+W Bluetooth Ceiling Smart Light 15W",
+                category: "bulbs",
+                price: 890,
+                oldPrice: 1290,
+                rating: 4.6,
+                badge: "Smart App",
+                icon: "fa-wifi",
+                specs: "16 Million Colors • Music Sync • Mobile App Controlled",
+                desc: "Change colors and brightness setting directly from your mobile phone. Preset scene modes available."
+            },
+            {
+                id: 8,
+                name: "Decorative Acrylic Crystal LED Ceiling Light",
+                category: "decorative",
+                price: 2450,
+                oldPrice: 3500,
+                rating: 5.0,
+                badge: "Luxury Design",
+                icon: "fa-gem",
+                specs: "30W Output • Remote Control Included • Triple Tone Light",
+                desc: "Modern designer ceiling light fixture with crystal cut ring effect for dining rooms and entrances."
+            }
+        ];
+
+        // Persistent Cart State
+        let cart = JSON.parse(localStorage.getItem('sutha_cart')) || [];
+        let discountRate = 0;
+
+        function saveCartState() {
+            localStorage.setItem('sutha_cart', JSON.stringify(cart));
+        }
+
+        function renderProducts(list) {
+            const grid = document.getElementById('productGrid');
+            if (!grid) return;
+            grid.innerHTML = '';
+
+            if (!list || list.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-full text-center py-12 text-slate-500">
+                        <i class="fa-solid fa-magnifying-glass text-4xl mb-3 text-slate-400"></i>
+                        <p class="font-bold">No products matching your search term or category.</p>
+                        <button onclick="filterCategory('all')" class="mt-2 text-xs text-gold-600 underline font-bold">Reset Filters</button>
+                    </div>
+                `;
+                return;
+            }
+
+            list.forEach(p => {
+                const card = document.createElement('div');
+                card.className = "card-sutha p-5 flex flex-col justify-between relative";
+                card.innerHTML = `
+                    <div>
+                        <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-bold text-[10px] px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+                            ${p.badge}
+                        </span>
+
+                        <div class="w-full h-44 bg-navy-900 rounded-2xl flex items-center justify-center text-gold-400 mb-4 group cursor-pointer" onclick="openQuickView(${p.id})">
+                            <i class="fa-solid ${p.icon} text-6xl group-hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_15px_rgba(245,197,66,0.6)]"></i>
+                        </div>
+
+                        <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                            <span><i class="fa-solid fa-star text-gold-500 mr-1"></i>${p.rating}</span>
+                            <span class="uppercase tracking-wider font-bold text-[10px] text-gold-600">${p.category}</span>
+                        </div>
+
+                        <h3 onclick="openQuickView(${p.id})" class="font-bold text-navy-900 text-base hover:text-gold-600 cursor-pointer line-clamp-1">${p.name}</h3>
+                        <p class="text-xs text-slate-500 mt-1 line-clamp-2">${p.specs}</p>
+                    </div>
+
+                    <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-slate-400 block">Price (Incl. GST)</span>
+                            <span class="text-lg font-bold text-navy-900">₹${p.price.toLocaleString('en-IN')}</span>
+                            <span class="text-xs text-slate-400 line-through ml-1">₹${p.oldPrice.toLocaleString('en-IN')}</span>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <button onclick="openQuickView(${p.id})" class="p-2 rounded-xl bg-slate-100 text-slate-600 hover:bg-slate-200 text-xs font-bold" title="Quick Specs" aria-label="Quick Specs">
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+                            <button onclick="addToCart(${p.id})" class="btn-navy-brand px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-1.5">
+                                <i class="fa-solid fa-cart-plus text-gold-500"></i> Add
+                            </button>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterCategory(cat, btnElem) {
+            document.querySelectorAll('.cat-pill').forEach(btn => {
+                btn.className = "cat-pill px-4 py-2 rounded-full text-xs font-bold bg-slate-200 text-slate-700 hover:bg-slate-300";
+            });
+            
+            const activeBtn = btnElem || (typeof window.event !== 'undefined' && window.event ? window.event.currentTarget : null);
+            if (activeBtn && activeBtn.classList && activeBtn.classList.contains('cat-pill')) {
+                activeBtn.className = "cat-pill active-pill px-4 py-2 rounded-full text-xs font-bold bg-navy-900 text-gold-500 shadow-sm";
+            }
+
+            if (cat === 'all') {
+                renderProducts(products);
+            } else {
+                renderProducts(products.filter(p => p.category === cat));
+            }
+        }
+
+        function handleSearch(q) {
+            const query = (q || '').toLowerCase();
+            const filtered = products.filter(p => p.name.toLowerCase().includes(query) || p.specs.toLowerCase().includes(query));
+            renderProducts(filtered);
+        }
+
+        function sortProducts(val) {
+            let list = [...products];
+            if (val === 'low') list.sort((a,b) => a.price - b.price);
+            if (val === 'high') list.sort((a,b) => b.price - a.price);
+            if (val === 'rating') list.sort((a,b) => b.rating - a.rating);
+            renderProducts(list);
+        }
+
+        function toggleSearch() {
+            const box = document.getElementById('searchBox');
+            if (box) {
+                box.classList.toggle('hidden');
+                if (!box.classList.contains('hidden')) {
+                    const input = document.getElementById('searchInput');
+                    if (input) input.focus();
+                }
+            }
+        }
+
+        function toggleMobileNav() {
+            const nav = document.getElementById('mobileNav');
+            if (nav) nav.classList.toggle('hidden');
+        }
+
+        function addToCart(id) {
+            const item = products.find(p => p.id === id);
+            if (!item) return;
+            const exist = cart.find(c => c.id === id);
+            if (exist) {
+                exist.qty += 1;
+            } else {
+                cart.push({ ...item, qty: 1 });
+            }
+            saveCartState();
+            updateCartUI();
+            showToast(`Added "${item.name}" to cart!`, 'success');
+        }
+
+        function quickAddProduct(id) {
+            addToCart(id);
+            openCartDrawer();
+        }
+
+        function changeQty(id, delta) {
+            const idx = cart.findIndex(c => c.id === id);
+            if (idx !== -1) {
+                cart[idx].qty += delta;
+                if (cart[idx].qty <= 0) cart.splice(idx, 1);
+            }
+            saveCartState();
+            updateCartUI();
+        }
+
+        function updateCartUI() {
+            const badge = document.getElementById('cartCountBadge');
+            const totalQty = cart.reduce((sum, item) => sum + item.qty, 0);
+            
+            if (badge) {
+                badge.textContent = totalQty;
+                if (totalQty > 0) {
+                    badge.classList.remove('scale-0');
+                } else {
+                    badge.classList.add('scale-0');
+                }
+            }
+
+            const list = document.getElementById('cartItemsList');
+            if (!list) return;
+            list.innerHTML = '';
+
+            if (cart.length === 0) {
+                list.innerHTML = `
+                    <div class="text-center py-12 text-slate-400">
+                        <i class="fa-solid fa-cart-flatbed text-5xl mb-3 text-slate-300"></i>
+                        <p class="font-bold text-sm text-slate-600">Your shopping cart is empty</p>
+                        <p class="text-xs text-slate-400">Add LED products to build your order.</p>
+                    </div>
+                `;
+            } else {
+                cart.forEach(item => {
+                    const row = document.createElement('div');
+                    row.className = "flex items-center justify-between p-3 rounded-2xl bg-slate-50 border border-slate-200 gap-3";
+                    row.innerHTML = `
+                        <div class="w-10 h-10 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center shrink-0">
+                            <i class="fa-solid ${item.icon}"></i>
+                        </div>
+                        <div class="flex-grow min-w-0">
+                            <h4 class="text-xs font-bold text-navy-900 truncate">${item.name}</h4>
+                            <span class="text-xs font-bold text-gold-600">₹${(item.price * item.qty).toLocaleString('en-IN')}</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white px-2 py-1 rounded-lg border border-slate-200">
+                            <button onclick="changeQty(${item.id}, -1)" class="text-xs font-bold text-slate-500 hover:text-red-500">-</button>
+                            <span class="text-xs font-bold w-4 text-center">${item.qty}</span>
+                            <button onclick="changeQty(${item.id}, 1)" class="text-xs font-bold text-slate-500 hover:text-emerald-500">+</button>
+                        </div>
+                    `;
+                    list.appendChild(row);
+                });
+            }
+
+            const grossTotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+            const discount = grossTotal * discountRate;
+            const finalPayable = Math.max(0, grossTotal - discount);
+
+            const taxableValue = finalPayable / 1.18;
+            const totalGST = finalPayable - taxableValue;
+            const cgst = totalGST / 2;
+            const sgst = totalGST / 2;
+
+            const taxEl = document.getElementById('cartTaxable');
+            const cgstEl = document.getElementById('cartCGST');
+            const sgstEl = document.getElementById('cartSGST');
+            const discEl = document.getElementById('cartDiscount');
+            const totEl = document.getElementById('cartTotal');
+            const chkEl = document.getElementById('checkoutAmount');
+
+            if (taxEl) taxEl.textContent = `₹${taxableValue.toFixed(2)}`;
+            if (cgstEl) cgstEl.textContent = `₹${cgst.toFixed(2)}`;
+            if (sgstEl) sgstEl.textContent = `₹${sgst.toFixed(2)}`;
+            if (discEl) discEl.textContent = `-₹${discount.toFixed(2)}`;
+            if (totEl) totEl.textContent = `₹${finalPayable.toLocaleString('en-IN')}`;
+            if (chkEl) chkEl.textContent = `₹${finalPayable.toLocaleString('en-IN')}`;
+        }
+
+        function applyPromoCode() {
+            const promoEl = document.getElementById('promoInput');
+            if (!promoEl) return;
+            const code = promoEl.value.trim().toUpperCase();
+            if (code === 'SUTHA10') {
+                discountRate = 0.10;
+                showToast('10% Coupon Discount Applied!', 'success');
+                updateCartUI();
+            } else if (code === '') {
+                showToast('Please enter a coupon code.', 'info');
+            } else {
+                showToast('Invalid Coupon Code.', 'info');
+            }
+        }
+
+        function openCartDrawer() { 
+            const drawer = document.getElementById('cartDrawer');
+            if (drawer) drawer.classList.remove('hidden'); 
+        }
+        function closeCartDrawer() { 
+            const drawer = document.getElementById('cartDrawer');
+            if (drawer) drawer.classList.add('hidden'); 
+        }
+
+        function openCheckoutModal() {
+            if (cart.length === 0) {
+                showToast('Your cart is empty!', 'info');
+                return;
+            }
+            closeCartDrawer();
+            const modal = document.getElementById('checkoutModal');
+            if (modal) modal.classList.remove('hidden');
+        }
+
+        function closeCheckoutModal() { 
+            const modal = document.getElementById('checkoutModal');
+            if (modal) modal.classList.add('hidden'); 
+        }
+
+        function placeOrder(e) {
+            if (e) e.preventDefault();
+            
+            const name = document.getElementById('custName')?.value || 'Customer';
+            const phone = document.getElementById('custPhone')?.value || '+91 98429 71196';
+            const address = document.getElementById('custAddress')?.value || 'Nazareth, Tamil Nadu';
+            const gstin = document.getElementById('custGSTIN')?.value.toUpperCase() || 'URP (Unregistered)';
+
+            closeCheckoutModal();
+            showGSTInvoice(name, phone, address, gstin);
+
+            cart = [];
+            saveCartState();
+            updateCartUI();
+            if (typeof confetti === 'function') {
+                confetti({ particleCount: 120, spread: 80, origin: { y: 0.6 } });
+            }
+            showToast('Order Placed Successfully! GST Bill generated.', 'success');
+        }
+
+        function showGSTInvoice(name, phone, address, gstin) {
+            const modal = document.getElementById('invoiceModal');
+            const content = document.getElementById('invoiceContent');
+            if (!modal || !content) return;
+
+            const invNo = 'SE-' + Math.floor(100000 + Math.random() * 900000);
+            const dateStr = new Date().toLocaleDateString('en-IN');
+
+            let itemsTable = '';
+            let totalAmount = 0;
+
+            cart.forEach((item, i) => {
+                const lineTotal = item.price * item.qty;
+                totalAmount += lineTotal;
+                itemsTable += `
+                    <tr class="border-b border-slate-200">
+                        <td class="py-1.5 text-left">${i+1}. ${item.name}</td>
+                        <td class="py-1.5 text-center">9405</td>
+                        <td class="py-1.5 text-center">${item.qty}</td>
+                        <td class="py-1.5 text-right">₹${item.price}</td>
+                        <td class="py-1.5 text-right font-bold">₹${lineTotal}</td>
+                    </tr>
+                `;
+            });
+
+            const taxable = totalAmount / 1.18;
+            const gstVal = totalAmount - taxable;
+            const cgst = gstVal / 2;
+            const sgst = gstVal / 2;
+
+            content.innerHTML = `
+                <div class="flex justify-between items-start border-b-2 border-navy-900 pb-3">
+                    <div>
+                        <h2 class="text-base font-bold text-navy-900 uppercase tracking-wide">SUTHA ELECTRONICS</h2>
+                        <p class="text-[10px] text-slate-600">No.1 , Market Street , Nazareth , Tuticorin Dist , Tamil Nadu , India.</p>
+                        <p class="text-[10px] text-slate-600">GSTIN: 33AAAAA0000A1Z5 | Ph: +91 98429 71196</p>
+                    </div>
+                    <div class="text-right">
+                        <span class="bg-navy-900 text-gold-400 font-bold px-2 py-0.5 text-[9px] uppercase rounded">GST Tax Invoice</span>
+                        <p class="text-[10px] font-mono mt-1">Inv: <strong>${invNo}</strong></p>
+                        <p class="text-[10px]">Date: ${dateStr}</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200 text-[11px] grid grid-cols-2 gap-2">
+                    <div>
+                        <span class="font-bold text-navy-900 uppercase block text-[9px] text-slate-400">Billed To (Customer):</span>
+                        <p class="font-bold">${name}</p>
+                        <p class="text-slate-600">${address}</p>
+                        <p class="text-slate-600">Ph: ${phone}</p>
+                    </div>
+                    <div>
+                        <span class="font-bold text-navy-900 uppercase block text-[9px] text-slate-400">Tax Details:</span>
+                        <p>GSTIN: <strong>${gstin}</strong></p>
+                        <p>State: Tamil Nadu (Code 33)</p>
+                        <p>Supply: Intrastate (CGST+SGST)</p>
+                    </div>
+                </div>
+
+                <table class="w-full text-[10px] my-2">
+                    <thead>
+                        <tr class="bg-navy-900 text-white font-bold">
+                            <th class="py-1.5 px-1 text-left">Item</th>
+                            <th class="py-1.5 text-center">HSN</th>
+                            <th class="py-1.5 text-center">Qty</th>
+                            <th class="py-1.5 text-right">Rate</th>
+                            <th class="py-1.5 px-1 text-right">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${itemsTable}
+                    </tbody>
+                </table>
+
+                <div class="border-t border-slate-300 pt-2 space-y-1 text-right text-[11px]">
+                    <div class="flex justify-between"><span>Taxable Value:</span><span class="font-mono">₹${taxable.toFixed(2)}</span></div>
+                    <div class="flex justify-between text-slate-600"><span>CGST @ 9%:</span><span class="font-mono">₹${cgst.toFixed(2)}</span></div>
+                    <div class="flex justify-between text-slate-600"><span>SGST @ 9%:</span><span class="font-mono">₹${sgst.toFixed(2)}</span></div>
+                    <div class="flex justify-between text-sm font-bold text-navy-900 border-t border-slate-300 pt-1">
+                        <span>Grand Total (Incl. GST):</span>
+                        <span class="text-gold-600 font-mono">₹${totalAmount.toLocaleString('en-IN')}</span>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between pt-3 border-t border-slate-200">
+                    <span class="text-[9px] text-slate-400 italic">This is a computer-generated tax invoice according to Govt. of India rules.</span>
+                    <div class="flex gap-2">
+                        <button onclick="window.print()" class="px-3 py-1.5 bg-slate-200 hover:bg-slate-300 text-navy-900 font-bold text-xs rounded-lg">Print</button>
+                        <button onclick="document.getElementById('invoiceModal').classList.add('hidden')" class="px-3 py-1.5 bg-navy-900 text-gold-400 font-bold text-xs rounded-lg">Close</button>
+                    </div>
+                </div>
+            `;
+            modal.classList.remove('hidden');
+        }
+
+        function openQuickView(id) {
+            const p = products.find(prod => prod.id === id);
+            if (!p) return;
+            const modal = document.getElementById('productModal');
+            const content = document.getElementById('productModalContent');
+
+            if (modal && content) {
+                content.innerHTML = `
+                    <button onclick="closeProductModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-800" aria-label="Close modal">
+                        <i class="fa-solid fa-xmark text-xl"></i>
+                    </button>
+                    <div class="flex flex-col sm:flex-row gap-6 items-center">
+                        <div class="w-full sm:w-1/2 h-48 bg-navy-900 rounded-2xl flex items-center justify-center text-gold-400">
+                            <i class="fa-solid ${p.icon} text-7xl drop-shadow-[0_0_20px_rgba(245,197,66,0.7)]"></i>
+                        </div>
+                        <div class="w-full sm:w-1/2 space-y-3">
+                            <span class="text-[10px] font-bold uppercase tracking-wider text-gold-600">${p.category} • ${p.badge}</span>
+                            <h3 class="font-bold text-navy-900 text-lg leading-tight">${p.name}</h3>
+                            <p class="text-xs text-slate-600">${p.desc}</p>
+                            
+                            <div class="p-3 bg-slate-50 rounded-xl text-xs space-y-1 border border-slate-200 font-mono">
+                                <div><strong>Specs:</strong> ${p.specs}</div>
+                                <div><strong>HSN Code:</strong> 9405 (18% GST)</div>
+                                <div><strong>Warranty:</strong> 12 Months Direct Replacement</div>
+                            </div>
+
+                            <div class="flex items-center justify-between pt-2">
+                                <span class="text-xl font-bold text-navy-900">₹${p.price.toLocaleString('en-IN')}</span>
+                                <button onclick="addToCart(${p.id}); closeProductModal();" class="btn-navy-brand px-4 py-2 rounded-xl text-xs font-bold">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                modal.classList.remove('hidden');
+            }
+        }
+
+        function closeProductModal() {
+            const modal = document.getElementById('productModal');
+            if (modal) modal.classList.add('hidden');
+        }
+
+        function calculateSavings() {
+            const countEl = document.getElementById('calcCount');
+            const hoursEl = document.getElementById('calcHours');
+            const oldWattEl = document.getElementById('calcOldWatt');
+            if (!countEl || !hoursEl || !oldWattEl) return;
+
+            const count = parseInt(countEl.value) || 0;
+            const hours = parseInt(hoursEl.value) || 0;
+            const oldWatt = parseInt(oldWattEl.value) || 0;
+
+            const countVal = document.getElementById('calcCountVal');
+            const hoursVal = document.getElementById('calcHoursVal');
+            if (countVal) countVal.textContent = `${count} Lights`;
+            if (hoursVal) hoursVal.textContent = `${hours} Hours/Day`;
+
+            const newWatt = Math.round(oldWatt * 0.18);
+            
+            const totalOldWatt = count * oldWatt;
+            const totalNewWatt = count * newWatt;
+
+            const dailyOldKWh = (totalOldWatt * hours) / 1000;
+            const dailyNewKWh = (totalNewWatt * hours) / 1000;
+
+            const annualKWhSaved = (dailyOldKWh - dailyNewKWh) * 365;
+            
+            const annualSavingsRupees = Math.round(annualKWhSaved * 8);
+            const co2SavedKg = Math.round(annualKWhSaved * 0.82);
+
+            const savingsEl = document.getElementById('savingsAmount');
+            const co2El = document.getElementById('co2Val');
+            const oldPowerEl = document.getElementById('oldPower');
+            const newPowerEl = document.getElementById('newPower');
+
+            if (savingsEl) savingsEl.textContent = `₹${annualSavingsRupees.toLocaleString('en-IN')} / year`;
+            if (co2El) co2El.textContent = `${co2SavedKg} kg`;
+            if (oldPowerEl) oldPowerEl.textContent = `${totalOldWatt}W`;
+            if (newPowerEl) newPowerEl.textContent = `${totalNewWatt}W`;
+        }
+
+        function handleQuoteSubmit(e) {
+            if (e) e.preventDefault();
+            const nameEl = document.getElementById('bName');
+            const prodEl = document.getElementById('bProduct');
+            const locEl = document.getElementById('bLocation');
+            
+            const name = nameEl ? nameEl.value : 'Customer';
+            const prod = prodEl ? prodEl.value : 'LED Goods';
+            const loc = locEl ? locEl.value : 'Nazareth';
+            
+            showToast(`Thank you ${name}! Your enquiry for "${prod}" (${loc}) has been received.`, 'success');
+            const form = document.getElementById('bulkQuoteForm');
+            if (form) form.reset();
+        }
+
+        function showToast(msg, type = 'info') {
+            const container = document.getElementById('toastContainer');
+            if (!container) return;
+            const toast = document.createElement('div');
+            let icon = 'fa-circle-info text-gold-500';
+            if (type === 'success') icon = 'fa-circle-check text-emerald-400';
+
+            toast.className = `pointer-events-auto flex items-center gap-3 px-4 py-3 rounded-2xl shadow-2xl bg-navy-900 text-white border border-slate-700 text-xs font-semibold transition-all duration-300 transform translate-y-4 opacity-0 max-w-xs`;
+            toast.innerHTML = `<i class="fa-solid ${icon} text-lg"></i><span>${msg}</span>`;
+            
+            container.appendChild(toast);
+            setTimeout(() => toast.classList.remove('translate-y-4', 'opacity-0'), 10);
+            setTimeout(() => {
+                toast.classList.add('opacity-0', 'translate-y-2');
+                setTimeout(() => toast.remove(), 300);
+            }, 3500);
+        }
+
+        window.addEventListener('DOMContentLoaded', function() {
+            renderProducts(products);
+            updateCartUI();
+            if (document.getElementById('calcCount')) {
+                calculateSavings();
+            }
+        });
+    </script>
+</body>
+</html>
